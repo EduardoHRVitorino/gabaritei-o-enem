@@ -1,0 +1,19 @@
+*{
+    margin: 0px; padding: 0px;
+}
+header{
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(85, 12, 255), rgb(126, 71, 255), rgb(146, 102, 250), rgb(102, 161, 250), rgb(85, 151, 250), rgb(70, 143, 253));
+    border-radius: 3px;
+    
+}
+
+header a{
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: green;
+}
+header div{border: 2px solid rgb(66, 66, 66) ; margin-left: 10px; display: inline-block; background-color: rgb(113, 255, 224); border-radius: 6px;}
+header div:hover{background-color: rgba(0, 255, 255, 0.678);}
