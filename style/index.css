@@ -4,121 +4,47 @@
     
 }
 body{background-color: #333333;}
-/*responsividade*/
-@media (max-width: 768px) {
-    header nav {
-        flex-direction: column;
-        align-items: center;
-        min-width: 100%;
-        max-width: 100%;
-    }
 
-
-    .responsiva-img img {
-        width: 80px;
-        height: auto;
-    }
-}
-@media (max-width: 480px) {
-    header nav a h1 {
-        font-size: 18px;
-    }
-}
+/*cabeçalho*/
 header{
+    background-image: linear-gradient(to right, rgb(123, 0, 238), rgb(169, 116, 230), rgb(86, 103, 255));
+    max-width: 100%;
+}
+header > div > a > img{
+    min-width: 1%; min-height: 1%;
+}
+header > div{
     display: flex;
     align-items: center;
-    background-image: linear-gradient(to right, rgb(85, 12, 255), rgb(126, 71, 255), rgb(146, 102, 250), rgb(102, 161, 250), rgb(85, 151, 250), rgb(70, 143, 253));
-    border-radius: 3px;
-    gap: 20px;
-    min-width: 100%;
-    max-width: 100%;
-    padding: 10px;
-}
-header a.responsiva-img img{
-    min-width: 50px;
-    width: auto;
-    max-width: 100%;
-    display: inline-block;
-    min-height: 10px;
-    height: auto;
-    max-height: 200px;
- 
-}
-.responsiva header nav div a h1 {
-    width: 100%;
-    max-width: 1400px;
-}
-header nav div{display: flex; align-items: center;}
-header nav div a{}
-header nav.responsiva {min-width: 10%; max-width: auto; display: block; gap: 10px;}
-.responsiva hr{
-    max-width: 100%;
-}
-
-.responsiva main section#objetivo{
-    min-width: 320px;
-    max-height: 1400px;
-}
-/*responsividade*/
-
-
-header a{
-    display: inline-block;
-    padding: 10px 20px;
+    max-width: 100%;}
+header div nav{ padding: auto; max-width: 50%; display: flex; }
+nav div a{
+    border: 2px solid; border-radius: 4px; padding: 4px; margin: 3px;
+    background-color: aquamarine;
+    color: cornflowerblue;
     text-decoration: none;
-    color:  #e6e6e6;
-    gap: 20px;
+    max-width: 100%; justify-content: center;}
+nav div a:hover{
+    border: 2px solid; border-radius: 4px; padding: 4px; margin: 3px;
+    background-color: rgb(20, 238, 165);
+    color: cornflowerblue;
+    text-decoration: none;
+    max-width: 100%; justify-content: center;}
+/*cabeçalho*/
 
-
-}
-header div{border: 2px solid rgb(66, 66, 66) ; margin-left: 10px; display: inline-block; background-color: #007BFF; border-radius: 6px;}
-
-header div:hover{background-color: rgba(0, 255, 255, 0.678); }
-
-
-section#objetivo{
-    justify-content: center;
-    margin: 20px; 
-}
-
+/*corpo*/
+main > section#objetivo div {display: flex;
+    align-items: center; }
 section#objetivo h2{
-    text-decoration: underline;
-    color: aquamarine;
-    font-family: "merriweather", serif;
-    display: flex;
-    justify-content: center;
-
-
-
+    color: aliceblue;
 }
-section#objetivo div{
-    display: flex; align-items: center;
-    gap: 30px;
-    justify-content: center;
-    
+section#objetivo p{
+    display: inline-flex; justify-content: center;
+    color: aliceblue;
 }
-section#objetivo div p{
-    font-family: "merriweather", serif;
-    color: whitesmoke;
-    font-weight: 200;
-    justify-content: center;
-    display: block;
+section#objetivo blockquote{display: flex; justify-content: center;
+color: rgb(56, 215, 255);    }
 
- 
-}
-#objetivo div img{border-radius: 5px; justify-content: center;
-width: 25%;}
-section {
-    margin-top: 30px;
-    margin-bottom: 30px;
 
-}
 
-#objetivo blockquote{color: rgba(0, 255, 255, 0.678);  
-display: flex;
-justify-content: center; 
-max-width: 100%; width: auto;
-box-sizing: border-box;
-margin: 0 auto;
-float: inline-end;
-}
+/*corpo*/
