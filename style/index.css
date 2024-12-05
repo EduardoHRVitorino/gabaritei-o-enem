@@ -33,16 +33,19 @@ nav div a:hover{
 /*cabeçalho*/
 
 /*corpo*/
-main > section#objetivo div {display: flex;
+main > section#objetivo div {display: inline-block;
     align-items: center; }
+main > section#objetivo > img{
+    display: inline-block;
+}
 section#objetivo h2{
     color: aliceblue;
 }
 section#objetivo p{
-    display: inline-flex; justify-content: center;
+    justify-content: center;
     color: aliceblue;
 }
-section#objetivo blockquote{display: flex; justify-content: center;
+section#objetivo blockquote{justify-content: center;
 color: rgb(56, 215, 255);    }
 
 
