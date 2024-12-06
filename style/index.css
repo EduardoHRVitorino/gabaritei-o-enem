@@ -66,6 +66,9 @@ header nav a:hover{
 /*cabeçalho*/
 
 /*corpo*/
+section{
+    display: block;
+}
 main > section#objetivo div {
     display: flex;
 
