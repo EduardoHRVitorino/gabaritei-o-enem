@@ -8,46 +8,98 @@ body{background-color: #333333;}
 /*cabeçalho*/
 header{
     background-image: linear-gradient(to right, rgb(123, 0, 238), rgb(169, 116, 230), rgb(86, 103, 255));
-    max-width: 100%;
+    display: flex;  flex-direction: column; align-items: flex-start;
+    padding: 10px; border-bottom: 2px solid #ddd; 
 }
-header > div > a > img{
-    min-width: 1%; min-height: 1%;
+header > a > picture{
+    width: 100%; display: flex; align-items: center;
+    gap: 10px;
 }
-header > div{
-    display: flex;
-    align-items: center;
-    max-width: 100%;}
-header div nav{ padding: auto; max-width: 50%; display: flex; }
-nav div a{
-    border: 2px solid; border-radius: 4px; padding: 4px; margin: 3px;
+
+header nav{
+    width: 100%; margin-top: 10px ; display: flex;
+}
+header > nav > a{
+    display: inline-block;
+    justify-content: space-around;
+    font-size: 100%;
+    margin-top: 10px;
+    margin: 10px 10px 0px 10px;
+    font-size: 20px;
+}
+header nav a{
+    padding: 3px;
+    border: 2px solid; border-radius: 4px;
     background-color: aquamarine;
     color: cornflowerblue;
     text-decoration: none;
-    max-width: 100%; justify-content: center;}
-nav div a:hover{
-    border: 2px solid; border-radius: 4px; padding: 4px; margin: 3px;
+
+
+
+
+    }
+header nav a:hover{
+    padding: 3px;
+    border: 2px solid; border-radius: 4px;
     background-color: rgb(20, 238, 165);
     color: cornflowerblue;
     text-decoration: none;
-    max-width: 100%; justify-content: center;}
+    display: inline-block;
+    justify-content: space-around;
+    }
+/*responsividade*/
+@media(max-width: 768px){
+    header > a > picture{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+
+    }
+    header nav a{
+        flex-direction: column; /* Coloca os links da navegação em coluna */
+        align-items: center;
+        font-size: 15px;
+    }
+}
+/*responsividade*/
+
 /*cabeçalho*/
 
 /*corpo*/
-main > section#objetivo div {display: inline-block;
-    align-items: center; }
-main > section#objetivo > img{
-    display: inline-block;
+main > section#objetivo div {
+    display: flex;
+
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px 20px;
+ }
+main  section#objetivo  picture img{
+    display: flex; border-radius: 4px; margin-left: 10px;
 }
 section#objetivo h2{
     color: aliceblue;
+    display: inline-flex;
 }
 section#objetivo p{
     justify-content: center;
     color: aliceblue;
 }
-section#objetivo blockquote{justify-content: center;
-color: rgb(56, 215, 255);    }
+section#objetivo blockquote{
+display: flex; 
 
+justify-content: flex-start ;
+color: rgb(56, 215, 255);}
+
+
+section#materias img{border-radius: 8px;}
+section#materias picture{
+    margin: 20px 10px;
+    
+}
+section#materias h3{
+    color: aliceblue;
+    text-align: center;
+}
 
 
 /*corpo*/
