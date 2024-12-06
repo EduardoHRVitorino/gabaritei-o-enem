@@ -75,6 +75,7 @@ main > section#objetivo div {
  }
 main  section#objetivo  picture img{
     display: flex; border-radius: 4px; margin-left: 10px;
+
 }
 section#objetivo h2{
     color: aliceblue;
@@ -94,6 +95,7 @@ color: rgb(56, 215, 255);}
 section#materias img{border-radius: 8px;}
 section#materias picture{
     margin: 20px 10px;
+
     
 }
 section#materias h3{
