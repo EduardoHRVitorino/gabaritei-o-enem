@@ -61,6 +61,22 @@ header nav a:hover{
         font-size: 15px;
     }
 }
+@media(max-width: 490px){
+    section#materias nav a picture img{
+        width: 100px;
+    }
+}
+@media(min-width: 500px){
+    section#materias nav a picture img{
+        width: 200px;
+    }
+}
+@media(min-width: 1000px){
+    section#materias nav a picture img{
+        width: 300px;
+    }
+}
+
 /*responsividade*/
 
 /*cabeçalho*/
@@ -96,17 +112,11 @@ color: rgb(56, 215, 255);}
 
 
 section#materias img{border-radius: 8px;}
-section#materias {
-    margin: 20px 10px;
-    
-}
+
 #materias nav{
-    display: block; justify-content: space-between;
-    gap: 30px;
+    display: block;
 }
-#materias nav a{
-    margin: 10px;
-}
+
 
 
 section#materias h3{
