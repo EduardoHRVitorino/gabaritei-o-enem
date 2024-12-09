@@ -96,15 +96,24 @@ color: rgb(56, 215, 255);}
 
 
 section#materias img{border-radius: 8px;}
-section#materias picture{
+section#materias {
     margin: 20px 10px;
-
     
 }
+#materias nav{
+    display: block; justify-content: space-between;
+    gap: 30px;
+}
+#materias nav a{
+    margin: 10px;
+}
+
+
 section#materias h3{
     color: aliceblue;
     text-align: center;
 }
+
 
 
 /*corpo*/
