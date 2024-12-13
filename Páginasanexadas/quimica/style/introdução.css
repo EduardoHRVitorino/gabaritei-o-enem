@@ -16,7 +16,7 @@ article{
     background-color: white;
     margin: auto;
     display: block;
-    width: 75%;
+    width: 80%;
     border-radius: 7px;
     
     
@@ -48,19 +48,23 @@ article > picture {
     width: 500px; 
     display: flex;
 }
-@media(max-width: 500px){
-    article > picture{
+@media(max-width: 600px){
+    article > div#alinhar-lado > picture > img{
         width: 200px;
+        height: 200px;
+    }
+}
+@media(max-width: 400px){
+    article > div#alinhar-lado > picture > img{
+        width: 150px;
+        height: 180px;
         display: flex;
     }
-    article > p{
-        justify-content: right;
+    article > div#alinhar-lado > p{
+        display: flex; width: max-content;
     }
 }
-article > p#texto-com-imagem{
-    display: flex;
 
-}
 article > div#alinhar-lado{
     display: flex;
     align-items: center;
