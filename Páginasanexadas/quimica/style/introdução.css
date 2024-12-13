@@ -1,0 +1,67 @@
+@font-face{
+    font-family: "Ubuntu", serif;
+    src : url('/fontes/Ubuntu-font/Ubuntu-Regular.ttf')
+}
+*{
+    font-family: "Ubuntu", serif;
+    margin: 0px; padding: 0px;
+}
+
+body{
+    
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(29, 29, 29), rgb(65, 64, 64), rgb(29, 29, 29), black);
+    background-color: rgb(22, 22, 22);
+}
+article{
+    background-color: white;
+    margin: auto;
+    display: block;
+    width: 75%;
+    border-radius: 7px;
+    
+    
+
+}
+article > h1 {
+    text-align: center;
+    background: linear-gradient(to bottom, rgb(1, 153, 1), rgb(56, 248, 56), rgb(0, 151, 211), rgb(0, 83, 116));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: xx-large;
+    font-weight: bold;
+}
+article > h3{
+    text-align: center;
+    text-decoration: underline dotted;
+    color: rgb(69, 248, 248);
+    font-size: x-large;
+}
+article > p{
+    text-indent: 25px;
+    margin: 10px 10px;
+}
+article > ul li{
+    list-style-position: inside;
+    margin-left: 10px;
+}
+article > picture {
+    width: 500px; 
+    display: flex;
+}
+@media(max-width: 500px){
+    article > picture{
+        width: 200px;
+        display: flex;
+    }
+    article > p{
+        justify-content: right;
+    }
+}
+article > p#texto-com-imagem{
+    display: flex;
+
+}
+article > div#alinhar-lado{
+    display: flex;
+    align-items: center;
+}

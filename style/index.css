@@ -120,6 +120,11 @@ section#materias img{border-radius: 8px;}
 
 #materias nav{
     display: block;
+    margin: auto;
+    text-align: center;
+}
+#materias nav > a{
+    margin: 15px;
 }
 
 
