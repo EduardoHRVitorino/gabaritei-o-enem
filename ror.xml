@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://gabaritei-o-enem.netlify.app/</title>
+  <link>https://gabaritei-o-enem.netlify.app/</link>
+
+<item>
+     <link>https://gabaritei-o-enem.netlify.app/</link>
+     <title>Gabaritei o ENEM</title>
+     <description>Site feito para ajudar estudantes do ensino médio que pretendem fazer o ENEM e provavelmente entrar
+    em uma universidade/faculdade</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://gabaritei-o-enem.netlify.app/p%C3%A1ginasanexadas/nav-quimica</link>
+     <title>Introdução à química</title>
+     <description>Introdução à química</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://gabaritei-o-enem.netlify.app/p%C3%A1ginasanexadas/quimica/introdu%C3%A7%C3%A3o.html</link>
+     <title>Introdução à Química</title>
+     <description>Introdução à Química</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
