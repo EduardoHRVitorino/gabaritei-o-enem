@@ -3,7 +3,7 @@
     margin: 0px; padding: 0px;
     
 }
-body{background-color: #333333;}
+body{background-color: #333333; display: none;}
 
 /*cabeçalho*/
 header{
@@ -52,6 +52,7 @@ header nav a:hover{
     display: inline-block;
     justify-content: space-around;
     }
+
 /*responsividade*/
 @media(max-width: 768px){
     header > a > picture{

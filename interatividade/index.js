@@ -1,3 +1,10 @@
+$('header > a > picture > img').ready(aparecer)
+function aparecer(){
+
+    $('body').fadeIn(1500)
+}
+
+
 var botao = document.querySelectorAll('.classebotao');
 
 botao.forEach(function(botao){
@@ -12,3 +19,5 @@ botao.forEach(function(botao){
    
    
 })
+
+
