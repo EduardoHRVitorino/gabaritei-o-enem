@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Parkinsans:wght@300..800&display=swap');
 *{
     margin: 0px; padding: 0px;
-    
+
 }
 body{background-color: #333333; display: none;}
 
@@ -82,12 +82,18 @@ header nav a:hover{
         width: 300px;
     }
 }
+@media(max-width: 500px){
+    p{
+        font-size: 10pt;
+    }
+}
 
 /*responsividade*/
 
 /*cabeçalho*/
 
 /*corpo*/
+
 section{
     display: block;
 }

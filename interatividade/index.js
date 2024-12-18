@@ -1,7 +1,7 @@
-$('header > a > picture > img').ready(aparecer)
+jQuery('body').ready(aparecer)
 function aparecer(){
 
-    $('body').fadeIn(1500)
+    jQuery('body').fadeIn(1500)
 }
 
 
