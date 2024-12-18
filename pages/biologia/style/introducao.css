@@ -54,6 +54,14 @@ div#textocomimg{
 @media(max-width: 600px){
     div#textocomimg > picture img{width: 200px; height: 150px;}
 }
+@media(max-width:400px){
+    article{
+        width: 80%;
+    }
+    div#textocomimg > p{
+        font-size: 7pt;
+    }
+}
 div#textocomimg > p{
     display: flex;
 }
