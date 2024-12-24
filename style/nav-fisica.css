@@ -1,0 +1,54 @@
+*{
+    margin: 0px; padding: 0px;
+}
+@font-face{
+    font-family: "Ubuntu", serif;
+    src : url('/fontes/Ubuntu-font/Ubuntu-Regular.ttf')
+}
+body{background-color: #333333;}
+main > div > h2{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    color: rgb(214, 214, 214);
+    font-family: "Ubuntu", serif;
+
+}
+@media(max-width: 400px){
+    main > div > h2{
+        font-size: large;
+    }
+}
+img#imagem-decorativa{
+    margin: auto;
+    display: flex;
+    border-radius: 7px;
+}
+
+main > nav {
+    color: white;
+    display: flex;
+    position: relative;
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+    width: 95%;
+    gap: 5%;
+    
+}
+main > nav ul{
+    display: flex;
+    align-items: center; 
+    gap: 5%;
+    text-decoration: none;
+    list-style-position: inside;
+    list-style: none;
+
+}
+main nav a{
+    text-decoration: none;
+    color: white;   
+}
+main nav a:hover{
+    color: rgb(113, 246, 255);
+}
