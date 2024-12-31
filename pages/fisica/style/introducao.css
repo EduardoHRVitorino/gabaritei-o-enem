@@ -18,7 +18,7 @@ article{
     width: 80%;
     border-radius: 7px;
     padding: 20px;
-    
+    box-shadow: black 0px 5px 30px 15px;
 
 }
 article > h1 {
@@ -36,7 +36,7 @@ article > h3{
     font-size: x-large;
 }
 article > p{
-    text-indent: 50px;
+    text-indent: 25px;
     margin: 10px 10px;
 }
 div#imgtexto {

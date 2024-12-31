@@ -21,7 +21,7 @@ header nav{
 }
 header > nav > a{
     display: block;
-    justify-content: space-around;
+    justify-content: space-around;  
     font-size: 100%;
     margin-top: 10px;
     margin: 10px 10px 0px 10px;
@@ -123,7 +123,7 @@ justify-content: flex-start ;
 color: rgb(56, 215, 255);}
 
 
-section#materias img{border-radius: 8px;}
+section#materias img{border-radius: 8px; box-shadow: black 0px 0px 30px 5px; margin: 10px;}
 
 #materias nav{
     display: block;
