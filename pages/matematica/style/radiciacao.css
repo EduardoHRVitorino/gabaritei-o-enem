@@ -1,0 +1,52 @@
+body{
+    background-image: linear-gradient(to right, rgb(255, 224, 48), rgb(253, 231, 103), rgb(252, 234, 137), 
+    rgb(251, 234, 136), rgb(250, 235, 148));
+}
+article{
+    background-color: white;
+    display: block; margin: auto;
+    width: 80%; height: 100%;
+    border-radius: 5px;
+    box-shadow: rgb(156, 133, 0) 0px 0px 30px 10px;
+    padding: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+main > article > h1{
+    text-align: center;
+    color: rgb(255, 219, 17);
+    font-size: xx-large ;
+    text-shadow: 0px 4px 10px rgb(0, 0, 0);
+}
+main > article > h2 {
+    text-align: center;
+    color: rgb(255, 219, 17);
+    font-size: x-large;
+    text-shadow: 0px 4px 10px rgb(0, 0, 0);
+}
+main > article > p{
+    text-indent: 15px;
+}
+main > article > div#raiz{
+    display: flex;
+    align-items: center;
+    
+}
+main > article > div#raiz h2{
+    margin: 20px;
+}
+@media(max-width: 320px){
+    main > article > div#raiz p {
+        font-size: 8pt;
+    }
+    main > article > div#raiz h2{
+        margin: 10px;
+    }
+}
+@media(max-width: 500px){
+    main > article > div#raiz p{
+        font-size: 10pt;
+    }
+    main > article > div#raiz h2{
+        margin: 5px;
+    }
+}
